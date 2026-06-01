@@ -56,6 +56,7 @@ nav ul li a:hover{
     background-color:mediumslateblue;
     transform: translateY(-10px);
 
+
 }
 
 /* to design the contact form */
@@ -64,15 +65,32 @@ nav ul li a:hover{
     flex-direction: column;
     gap: 2rem;
 }
-
+/* submit button styling */
 .submit-button{
     width: 5rem;
     height: 2.5rem ;
     padding: 0.5rem 1rem;
     border-radius: 15%;
+    /* (A) */
+    background-color: mediumseagreen; 
+
+}
+/* to hover and color change the submit button (A) */
+.submit-button:hover {
+    background-color: #EEAECA;
+}
+/* what to do when the button is clicked (A)*/
+.submit-button:active {
+    background-color: brown;
+    /* to create a clicking animation */
+    transform: scale(0.9);
+}
+.form-selection{
+    display: flex;
+    flex-direction: row;
+    border: 1px ;
+    text-transform:uppercase ;
+    gap: 4rem;
+
 }
 
-.form-section{
-    border: 1px ;
-    
-}
