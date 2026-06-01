@@ -7,4 +7,50 @@
 
 body{
     font-family: "Oswald", sans-serif;
+    color: black;
+    background: #EEAECA;
+background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+header{
+    text-align:center;
+
+}
+header h1{
+    font-size: 2.5rem;
+    font-weight: 600 ;
+    border: 5px solid rgb(0, 0, 0);
+} 
+/* to add a background for the navigation area */
+nav{
+
+    /* background: rgba(255,255,255) */
+}
+/* to align the sub-pages headings on the webpage */
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    justify-content:space-evenly ;
+    align-items: center;
+}
+/* to change/remove the bullet points */
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a{
+    /* to remove the underline */
+    text-decoration: none;  
+    color:yellow;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+
+}
+
+
+nav ul li a:hover{
+    background-color:mediumslateblue;
+    
+
 }
