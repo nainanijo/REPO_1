@@ -88,9 +88,37 @@ nav ul li a:hover{
 .form-selection{
     display: flex;
     flex-direction: row;
-    border: 1px ;
+    border: 2px dashed gray ;
     text-transform:uppercase ;
     gap: 4rem;
+    height: 100%;
+    padding: 10px;
 
 }
 
+/* (S) */
+.logos {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   border: 2px solid gray ;
+   gap:4rem;
+   width: 50%;
+   margin: auto;
+}
+/* (A) */
+.logos figure {
+    text-align: center;
+    border: 1px solid black;
+    margin: 0.125rem;
+
+}
+
+.logos img{
+    /* to resize the image */
+    height: 70px;
+    width: 70px;
+    /* for objects not to jump out of the margin */
+    object-fit: contain;
+    border: 1px solid black;
+}
