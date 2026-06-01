@@ -65,11 +65,11 @@ nav ul li a:hover{
     gap: 2rem;
 }
 
-.button-submit{
-    width: 2.5rem;
-    height: 1rem ;
-    padding: 10%;
-    border-radius: 5%;
+.submit-button{
+    width: 5rem;
+    height: 2.5rem ;
+    padding: 0.5rem 1rem;
+    border-radius: 15%;
 }
 
 .form-section{
