@@ -1,7 +1,7 @@
 /* Universal Selector */
 *{
     margin:0;
-    padding:0'
+    padding:0;
     box-sizing: border-box;
 }
 
@@ -11,20 +11,21 @@ body{
     background: #EEAECA;
 background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
 }
-
+/* to align the header to center */
 header{
     text-align:center;
 
 }
+/* to add border for the header */
 header h1{
     font-size: 2.5rem;
     font-weight: 600 ;
-    border: 5px solid rgb(0, 0, 0);
+    border: 5px solid #ceb1b1;
 } 
 /* to add a background for the navigation area */
 nav{
-
-    /* background: rgba(255,255,255) */
+    padding: 15px;
+    background: #dbd8d8; 
 }
 /* to align the sub-pages headings on the webpage */
 nav ul{
@@ -45,12 +46,14 @@ nav ul li a{
     color:yellow;
     padding: 0.5rem 1rem;
     border-radius: 5px;
+    /* to control the tranition of the purple box in nav bar aka smoothen it */
+    transition:all 0.5s ease-in-out ;
 
 }
 
 
 nav ul li a:hover{
     background-color:mediumslateblue;
-    
+    transform: translateY(-10px);
 
 }
