@@ -46,3 +46,34 @@ let x=5
 x+=5 //x=x+5
 console.log(x)
 
+//Comparison Operators
+let flag1= true
+let flag2= true
+
+console.log(flag1==flag2) //value comparison
+console.log(flag1===flag2) //value and data comparison
+
+//Logical Operators
+console.log((flag1 != flag2) || (2<3)) //OR
+console.log((flag1 != flag2) && (2<3)) //AND
+
+
+let time = new Date().getHours()
+console.log(time)
+
+if (time < 12){
+    console.log(`Goodmorning!`)}
+else if (12<time<15){
+    console.log(`Good Afternoon!`)
+}
+else if (16<time<20){
+    console.log(`Goodevening!`)
+}
+else{
+    console.log(`Goodnight!`)
+}
+
+for (let i = 1; i <=50; i++) {
+    console.log(i);
+}
+
