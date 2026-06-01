@@ -57,3 +57,15 @@ nav ul li a:hover{
     transform: translateY(-10px);
 
 }
+
+/* to design the contact form */
+#contacts form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form-section{
+    border: 1px ;
+    
+}
