@@ -65,6 +65,12 @@ nav ul li a:hover{
     gap: 2rem;
 }
 
+.button-submit{
+    width: 2.5rem;
+    height: 1rem ;
+
+}
+
 .form-section{
     border: 1px ;
     
