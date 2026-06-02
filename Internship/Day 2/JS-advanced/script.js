@@ -83,4 +83,22 @@ function array_print(a){
     }
 }
 
-array_print(["winter","Summer","Autumn","Spring","Monsoon",])
+array_print(["winter","Summer","Autumn","Spring","Monsoon",]);
+// OR
+
+for(let i=0;i<seasons.length;i++){
+        console.log(seasons[i])
+    }
+
+
+//Map fn
+
+const d=[1,2,4,16];
+// map fn to create a new array with elements doubled
+const b =d.map(x=>x*2);
+console.log(b);
+
+
+
+
+    
