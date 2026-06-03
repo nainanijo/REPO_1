@@ -9,7 +9,7 @@ return(
   <>
      {/* <h1>Welcome to React</h1>
     <p>Hello</p> */}
-    
+    <greeting city="Bangalore"/>
     
   </>
 )
