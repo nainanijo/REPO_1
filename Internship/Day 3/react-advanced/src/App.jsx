@@ -1,6 +1,7 @@
 import './App.css'
 import Greeting from './Components/Greeting.jsx'
-
+import Counter from './Components/Counter.jsx'
+import Toggle from './Components/Toggle.jsx'
 
 function App(){
 
@@ -9,7 +10,10 @@ return(
   <>
      {/* <h1>Welcome to React</h1>
     <p>Hello</p> */}
-    <greeting city="Bangalore"/>
+    <Greeting city="Bangalore"/>
+    <Counter/>
+    <Toggle/>
+
     
   </>
 )
