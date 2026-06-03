@@ -1,7 +1,7 @@
 import './App.css'
 import Profile from'./components/Profile'
 import UserBadge from './Components/UserBadge'
-import TimeLocation from '/Components/TimeLocation'
+import TimeLocation from './Components/TimeLocation'
 
 function App(){
 
